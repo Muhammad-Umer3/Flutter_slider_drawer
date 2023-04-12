@@ -139,7 +139,7 @@ class SliderDrawerState extends State<SliderDrawer>
 
   /// Close slider
   void closeSlider() => _animationDrawerController.reverse();
-  Color _appBarColor = Color(0xffffffff);
+  Color _appBarColor = Color(0xffffffff).withOpacity(0);
 
   @override
   void initState() {
